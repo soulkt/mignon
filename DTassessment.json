@@ -1,0 +1,125 @@
+//수정본 1번 문항(객관식)
+{
+	"data": {
+		"@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+		"@type": "http://purl.imsglobal.org/caliper/v1/AssessmentEvent",
+		"action": "complete", //"action": "complete" 로 선언됨.
+		"actor": {
+			"@id": "https://www.keris.or.kr/user",
+			"@type": "http://purl.imsglobal.org/caliper/v1/lis/Person"
+		},
+		"eventTime": "2018-01-28 15:51:39",
+		"generated": {
+			"@id": "Society2_10_Finale_1128a4109-3f3c-4f5f-82db-c1538e0c4a4a",
+			"@type": "singleChoice",
+			"attempt": "https://example.edu/terms/201601/courses/7/sections/1/assess/1/items/3/users/554433/attempts/1",
+			"dateCreated": "2018-01-28 15:51:39",
+			"endedAtTime": "2018-01-28 15:51:39",
+			"score": 0,
+			"startedAtTime": "2018-01-28 15:51:39",
+			"values": "1"
+		},
+		"id": "urn:uuid:Society2_10_Finale_1",
+		"responseType": "singleChoice",
+		"session": {
+			"@id": "https://www.keris.or.kr/session/12e571a7-54c3-4fdd-8bfb-c2cc29db6264",
+			"@type": "Session",
+			"startedAtTime": "2017-11-15T10:00:00.000Z"
+		},
+		"url": "http://localhost:8080/UserData/keris/Contents/a431fa75-3765-6e87-8d35-0fbf299f55e8/ops/page194.xhtml"
+	},
+	"sendTime": "2018-01-28 15:51:39",
+	"sensor": "https://www.keris.or.kr/sensor"
+}
+//수정본 7번 문항(주관식)
+{
+	"data": {
+		"@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+		"@type": "http://purl.imsglobal.org/caliper/v1/AssessmentEvent",
+		"action": "passed",//"action": "passed" 로 선언됨.
+		"actor": {
+			"@id": "https://www.keris.or.kr/user",
+			"@type": "http://purl.imsglobal.org/caliper/v1/lis/Person"
+		},
+		"eventTime": "2018-01-28 15:51:46",
+		"id": "urn:uuid:Society2_10_Finale_7",
+		"responseType": "essay",
+		"session": {
+			"@id": "https://www.keris.or.kr/session/918e51be-b7db-4fc8-8921-cc0f1312b8b1",
+			"@type": "Session",
+			"startedAtTime": "2017-11-15T10:00:00.000Z"
+		},
+		"url": "http://localhost:8080/UserData/keris/Contents/a431fa75-3765-6e87-8d35-0fbf299f55e8/ops/page194.xhtml"
+	},
+	"sendTime": "2018-01-28 15:51:46",
+	"sensor": "https://www.keris.or.kr/sensor"
+} 
+//수정본 12-1번 문항(주관식 2개 분리)
+{
+	"data": {
+		"@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+		"@type": "http://purl.imsglobal.org/caliper/v1/AssessmentEvent",
+		"action": "passed",//"action": "passed" 로 선언됨.
+		"actor": {
+			"@id": "https://www.keris.or.kr/user",
+			"@type": "http://purl.imsglobal.org/caliper/v1/lis/Person"
+		},
+		"eventTime": "2018-01-28 15:51:55",
+		"id": "urn:uuid:Society2_10_Finale_12",
+		"responseType": "fillInTheBlank",//"responseType": "fillInTheBlank" 로 선언됨.
+		"session": {
+			"@id": "https://www.keris.or.kr/session/2ce96696-ea6b-4c1b-b9e1-933d95e5c3ff",
+			"@type": "Session",
+			"startedAtTime": "2017-11-15T10:00:00.000Z"
+		},
+		"url": "http://localhost:8080/UserData/keris/Contents/a431fa75-3765-6e87-8d35-0fbf299f55e8/ops/page194.xhtml"
+	},
+	"sendTime": "2018-01-28 15:51:55",
+	"sensor": "https://www.keris.or.kr/sensor"
+} 
+//수정본 12-2번 문항(주관식 2개 분리)
+{
+	"data": {
+		"@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+		"@type": "http://purl.imsglobal.org/caliper/v1/AssessmentEvent",
+		"action": "passed",//"action": "passed" 로 선언됨.
+		"actor": {
+			"@id": "https://www.keris.or.kr/user",
+			"@type": "http://purl.imsglobal.org/caliper/v1/lis/Person"
+		},
+		"eventTime": "2018-01-28 15:51:55",
+		"id": "urn:uuid:Society2_10_Finale_13",
+		"responseType": "essay",//"responseType": "essay" 로 선언됨.
+		"session": {
+			"@id": "https://www.keris.or.kr/session/a0e1b191-e00d-4f0a-a71b-b91142273cea",
+			"@type": "Session",
+			"startedAtTime": "2017-11-15T10:00:00.000Z"
+		},
+		"url": "http://localhost:8080/UserData/keris/Contents/a431fa75-3765-6e87-8d35-0fbf299f55e8/ops/page194.xhtml"
+	},
+	"sendTime": "2018-01-28 15:51:55",
+	"sensor": "https://www.keris.or.kr/sensor"
+}
+//원본 12번 문항(주관식 2개 분리)
+{
+	"data": {
+		"@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+		"@type": "http://purl.imsglobal.org/caliper/v1/AssessmentEvent",
+		"action": "passed",//"action": "passed" 로 선언됨.
+		"actor": {
+			"@id": "https://www.keris.or.kr/user",
+			"@type": "http://purl.imsglobal.org/caliper/v1/lis/Person"
+		},
+		"eventTime": "2018-01-28 15:52:35",
+		"id": "urn:uuid:null",
+		"responseType": null,//"responseType": "null" 로 선언됨.
+		"session": {
+			"@id": "https://www.keris.or.kr/session/bfcf053f-df87-4c6d-bb52-95990af31c7b",
+			"@type": "Session",
+			"startedAtTime": "2017-11-15T10:00:00.000Z"
+		},
+		"url": "http://localhost:8080/DtextBook/768b0d33-e51a-6632-b3eb-b4a0ad7bd05e/Lesson10.epub/ops/page194.xhtml"
+	},
+	"sendTime": "2018-01-28 15:52:35",
+	"sensor": "https://www.keris.or.kr/sensor"
+}
